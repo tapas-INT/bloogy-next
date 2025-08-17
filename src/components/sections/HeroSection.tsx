@@ -23,7 +23,7 @@ export const HeroSection = (): React.ReactElement => {
 
         <div className="absolute w-[1172px] h-[137px] top-[306px] right-[-338px] rounded-[309px] rotate-[-48.64deg] blur-[198.45px] bg-[linear-gradient(90deg,rgba(132,80,255,1)_0%,rgba(255,77,246,1)_100%)] opacity-30" />
 
-        <div className="relative z-10 max-w-[1344px] mx-auto px-4">
+        <div className="relative z-10 container px-4">
           <nav className="flex items-center justify-between pt-10 pb-8">
             <div className="flex items-center justify-center gap-2">
               <h1 className="[font-family:'Nexa-ExtraLight',Helvetica] font-extralight text-neutralneutral-08 text-[32px] leading-[38.4px]">
@@ -63,7 +63,7 @@ export const HeroSection = (): React.ReactElement => {
               </div>
 
               <div className="flex items-center">
-                <Button className="h-auto bg-[#c6b3ff] hover:bg-[#b8a3ff] text-neutralneutral-08 px-10 py-4 rounded-[100px] font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
+                <Button className="h-auto bg-[#c6b3ff] hover:bg-[#b8a3ff] text-neutralneutral-08 px-10 py-4 rounded-[100px] font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)] group hover:bg-neutralneutral-08 hover:text-white">
                   Read My Blog's
                 </Button>
               </div>

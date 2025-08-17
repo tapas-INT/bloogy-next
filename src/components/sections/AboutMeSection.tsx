@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 export const AboutMeSection = (): React.ReactElement => {
   return (
     <section className="w-full bg-neutralneutral-01 pb-[120px]">
-      <div className="max-w-[1345px] mx-auto px-8">
+      <div className="container px-4">
         <div className="flex flex-col items-center gap-24">
           <div className="flex flex-col items-center gap-4 text-center">
             <h2 className="font-headings-heading-1 font-[number:var(--headings-heading-1-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[var(--headings-heading-1-letter-spacing)] leading-[var(--headings-heading-1-line-height)] [font-style:var(--headings-heading-1-font-style)]">

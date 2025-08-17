@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 export const CallToActionSection = (): React.ReactElement => {
   return (
     <section className="w-full bg-neutralneutral-02 py-[130px]">
-      <div className="max-w-[1345px] mx-auto px-4">
+      <div className="container px-4">
         <div className="flex items-center gap-20">
           <div className="flex flex-col gap-12 flex-1">
             <div className="flex flex-col gap-4">

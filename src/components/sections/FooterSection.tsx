@@ -11,7 +11,7 @@ export const FooterSection = (): React.ReactElement => {
 
   return (
     <footer className="w-full bg-neutralneutral-01 py-[120px]">
-      <div className="max-w-[1345px] mx-auto px-4 flex flex-col gap-24">
+      <div className="container px-4 flex flex-col gap-24">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center gap-2">
             <h2 className="[font-family:'Nexa-ExtraLight',Helvetica] font-extralight text-neutralneutral-08 text-[32px] leading-[38.4px]">
