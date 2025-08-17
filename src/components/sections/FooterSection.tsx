@@ -48,10 +48,10 @@ export const FooterSection = (): React.ReactElement => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-12 w-full">
+        <div className="sm:flex flex-col gap-12 w-full">
           <div className="w-full h-px bg-neutralneutral-05"></div>
 
-          <div className="flex items-end justify-between w-full">
+          <div className="md:flex items-end justify-between w-full">
             <p className="font-body-14px-regular font-[number:var(--body-14px-regular-font-weight)] text-[#5b5753] text-[length:var(--body-14px-regular-font-size)] tracking-[var(--body-14px-regular-letter-spacing)] leading-[var(--body-14px-regular-line-height)] [font-style:var(--body-14px-regular-font-style)]">
               Copyright © 2024, All Rights Reserved By FramerWebPro
             </p>

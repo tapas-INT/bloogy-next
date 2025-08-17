@@ -56,7 +56,7 @@ export const FeaturedPostsSection = (): React.ReactElement => {
                   alt="Featured post image"
                   src={post.image}
                 />
-                <CardContent className="flex flex-col gap-10 p-10 pr-36 -mt-[30px] bg-neutralneutral-02 rounded-[30px] relative z-10">
+                <CardContent className="flex flex-col gap-10 p-10 -mt-[30px] bg-neutralneutral-02 rounded-[30px] relative z-10">
                   <div className="flex flex-col gap-4">
                     <h3 className="font-headings-heading-5 font-[number:var(--headings-heading-5-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-5-font-size)] tracking-[var(--headings-heading-5-letter-spacing)] leading-[var(--headings-heading-5-line-height)] [font-style:var(--headings-heading-5-font-style)]">
                       {post.title}

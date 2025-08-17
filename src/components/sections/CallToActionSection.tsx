@@ -6,8 +6,8 @@ export const CallToActionSection = (): React.ReactElement => {
   return (
     <section className="w-full bg-neutralneutral-02 py-[130px]">
       <div className="container px-4">
-        <div className="flex items-center gap-20">
-          <div className="flex flex-col gap-12 flex-1">
+        <div className="flex lg:flex-row flex-col lg:items-center gap-20"> 
+          <div className="flex flex-col gap-12 flex-1 lg:order-1 order-2">
             <div className="flex flex-col gap-4">
               <h1 className="font-headings-heading-1 font-[number:var(--headings-heading-1-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[var(--headings-heading-1-letter-spacing)] leading-[var(--headings-heading-1-line-height)] [font-style:var(--headings-heading-1-font-style)]">
                 Tell Me Your Story
@@ -26,9 +26,9 @@ export const CallToActionSection = (): React.ReactElement => {
             </div>
           </div>
 
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 order-1 lg:order-0">
           <Image
-            className="w-[541px] h-[432px] rounded-[20px] object-cover"
+            className="lg:w-[541px] w-full h-[432px] rounded-[20px] object-cover"
             alt="Image"
             src="/images/sory-image.png"
             width={541}

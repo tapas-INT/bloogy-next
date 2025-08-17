@@ -17,15 +17,15 @@ export const AboutMeSection = (): React.ReactElement => {
             </p>
           </div>
 
-          <div className="flex items-center gap-14 w-full">
+          <div className="lg:flex gap-14 w-full">
             <div
-              className="flex-1 h-[744px] rounded-[30px] bg-cover bg-center bg-no-repeat"
+              className="flex-1 xl:h-[744px] lg:h-auto h-[400px] lg:mb-0 mb-14 rounded-[30px] bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: "url(/images/about-me.png)" }}
             />
 
-            <Card className="flex-1 h-[744px] bg-theme-colortheme-color-02 rounded-[30px] border-0">
+            <Card className="flex-1 bg-theme-colortheme-color-02 rounded-[30px] border-0">
               <CardContent className="h-full flex flex-col justify-between p-16">
-                <p className="font-body-28px-regular font-[number:var(--body-28px-regular-font-weight)] text-neutralneutral-07 text-[length:var(--body-28px-regular-font-size)] tracking-[var(--body-28px-regular-letter-spacing)] leading-[var(--body-28px-regular-line-height)] [font-style:var(--body-28px-regular-font-style)]">
+                <p className="font-body-28px-regular font-[number:var(--body-28px-regular-font-weight)] text-neutralneutral-07 text-[length:var(--body-28px-regular-font-size)] tracking-[var(--body-28px-regular-letter-spacing)] leading-[var(--body-28px-regular-line-height)] [font-style:var(--body-28px-regular-font-style)] mb-10">
                   Hey! I&#39;m Maya, and I&#39;m excited to share my journey with you.
                   Let&#39;s connect and discover something new together. I&#39;ve always
                   been a curious person, always seeking new experiences. I love
@@ -35,7 +35,7 @@ export const AboutMeSection = (): React.ReactElement => {
                   this journey discovery and exploration.
                 </p>
 
-                <Button className="bg-theme-colortheme-color-01 hover:bg-theme-colortheme-color-01/90 text-neutralneutral-08 rounded-full px-10 py-4 h-auto font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)] w-fit group hover:bg-neutralneutral-08 hover:text-white">
+                <Button className="bg-theme-colortheme-color-01 text-neutralneutral-08 rounded-full px-10 py-4 h-auto font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)] w-fit group hover:bg-neutralneutral-08 hover:text-white">
                   Read My Story
                 </Button>
               </CardContent>

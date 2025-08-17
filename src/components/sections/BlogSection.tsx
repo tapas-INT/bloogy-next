@@ -66,7 +66,7 @@ export const BlogSection = (): React.ReactElement => {
               key={post.id}
               className="flex flex-col bg-transparent border-none shadow-none"
             >
-              <CardContent className="p-0 flex flex-col">
+              <CardContent className="p-0 h-full flex flex-col">
                     <Image
                       className={`w-full h-[291px] object-cover ${post.hasRoundedTop ? "rounded-[20px_20px_0px_0px]" : ""}`}
                       alt="Blog post image"
@@ -75,8 +75,8 @@ export const BlogSection = (): React.ReactElement => {
                       height={400}
                       priority
                     />
-                <div className="flex flex-col gap-10 px-8 py-8 mt-[-18px] bg-neutralneutral-02 rounded-[20px]">
-                  <div className="flex flex-col gap-4">
+                <div className="flex flex-1 flex-col gap-10 px-8 py-8 mt-[-18px] bg-neutralneutral-02 rounded-[20px]">
+                  <div className="flex flex-col gap-4 flex-1">
                     <h3 className="font-body-24px-regular font-[number:var(--body-24px-regular-font-weight)] text-neutralneutral-07 text-[length:var(--body-24px-regular-font-size)] tracking-[var(--body-24px-regular-letter-spacing)] leading-[var(--body-24px-regular-line-height)] [font-style:var(--body-24px-regular-font-style)]">
                       {post.title}
                     </h3>
@@ -95,14 +95,10 @@ export const BlogSection = (): React.ReactElement => {
           ))}
 
           <Card className="bg-transparent border-none shadow-none">
-            <CardContent className="p-0 h-[578px]">
-              <div className="flex flex-col gap-[72px] px-[45px] py-14 h-full rounded-[20px] bg-[linear-gradient(90deg,rgba(239,223,255,1)_0%,rgba(229,220,255,1)_100%)]">
+              <CardContent className="flex flex-col gap-[72px] px-[45px] py-14 h-full rounded-[20px] bg-[linear-gradient(90deg,rgba(239,223,255,1)_0%,rgba(229,220,255,1)_100%)]">
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-[36px] font-extralight leading-[1.4]">
-                    <span className="text-[#AD72E3]">Dive deeper</span> into<br />
-                    the world of<br />
-                    emotional <span className="text-[#AD72E3]">blogging</span><br />
-                    with <span className="text-[#AD72E3]">Bloogy</span>
+                  <h3 className="text-[40px] font-extralight leading-[1.4]">
+                    <span className="text-[#AD72E3]">Dive deeper</span> into the world of emotional <span className="text-[#AD72E3]">blogging</span> with <span className="text-[#AD72E3]">Bloogy</span>
                   </h3>
                   <p className="font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
                     Start exploring the latest blogs and trends on Bloogy today!
@@ -116,8 +112,7 @@ export const BlogSection = (): React.ReactElement => {
                     Read My All Blog
                   </Button>
                 </div>
-              </div>
-            </CardContent>
+              </CardContent>
           </Card>
         </div>
       </div>

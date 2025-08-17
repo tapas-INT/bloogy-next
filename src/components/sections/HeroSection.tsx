@@ -11,7 +11,7 @@ const navigationItems = [
 
 export const HeroSection = (): React.ReactElement => {
   return (
-    <section className="relative w-full min-h-[1008px] bg-neutralneutral-02 overflow-hidden">
+    <section className="relative w-full bg-neutralneutral-02 overflow-hidden">
       <div className="relative w-full h-full">
         <img
           className="absolute inset-0 w-full h-full object-cover"
