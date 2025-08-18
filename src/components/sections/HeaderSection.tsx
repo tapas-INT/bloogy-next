@@ -1,4 +1,5 @@
 import React from "react";
+import { MobileMenu } from "../MobileMenu";
 
 const navigationItems = [
   { label: "Home", href: "#" },
@@ -16,7 +17,8 @@ export const HeaderSection = (): React.ReactElement => (
       </h1>
     </div>
     <div className="flex items-center gap-[72px]">
-      <div className="flex items-center gap-12">
+         {/* Desktop Navigation */}
+      <div className="hidden md:flex items-center gap-12">
         {navigationItems.map((item, index) => (
           <a
             key={index}
@@ -27,6 +29,8 @@ export const HeaderSection = (): React.ReactElement => (
           </a>
         ))}
       </div>
+      {/* Mobile/Tablet Menu */}
+      <MobileMenu navigationItems={navigationItems} />
     </div>
   </nav>
 </header>
