@@ -54,7 +54,7 @@ export const BlogSection = (): React.ReactElement => {
           <h1 className="font-extralight text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[0] leading-[1.2]">
             Bloogy's Blog Hub
           </h1>
-          <p className="w-[540px] max-w-full font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] text-center tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
+          <p className="max-w-[540px] max-w-full font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] text-center tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
             Welcome to the Bloogy Blog Hub, your go-to source for the latest and
             most popular content. Discover stories, reflections, and insights.
           </p>

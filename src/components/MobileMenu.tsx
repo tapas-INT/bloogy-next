@@ -7,6 +7,7 @@ import {
   DialogContent,
   DialogTrigger,
   DialogClose,
+  DialogTitle,
 } from "./ui/dialog";
 import { Button } from "./ui/button";
 
@@ -35,9 +36,9 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ navigationItems }) => {
       <DialogContent className="w-full max-w-sm bg-neutralneutral-01 border-0 shadow-xl">
         <div className="flex flex-col gap-6 pt-8">
           <div className="flex items-center justify-between">
-            <h2 className="[font-family:'Nexa-ExtraLight',Helvetica] font-extralight text-neutralneutral-08 text-2xl">
+            <DialogTitle className="[font-family:'Nexa-ExtraLight',Helvetica] font-extralight text-neutralneutral-08 text-2xl">
               Bloogy
-            </h2>
+            </DialogTitle>
           </div>
           
           <nav className="flex flex-col gap-4">

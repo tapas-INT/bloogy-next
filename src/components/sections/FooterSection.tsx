@@ -36,7 +36,7 @@ export const FooterSection = (): React.ReactElement => {
               <Input
                 type="email"
                 placeholder="Enter Your Email Address"
-                className="bg-neutralneutral-02 border border-solid border-black px-6 py-4 text-neutralneutral-06 font-body-16px-regular rounded-[100px] min-w-[300px] min-h-[58px] focus-visible:ring-0 focus-visible:ring-offset-0"
+                className="bg-neutralneutral-02 border border-solid border-black px-6 py-4 text-neutralneutral-06 font-body-16px-regular rounded-[100px] sm:min-w-[300px] min-h-[58px] focus-visible:ring-0 focus-visible:ring-offset-0"
               />
               <Button
                 size="icon"
