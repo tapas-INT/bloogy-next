@@ -9,7 +9,7 @@ export const CallToActionSection = (): React.ReactElement => {
         <div className="flex lg:flex-row flex-col lg:items-center gap-20"> 
           <div className="flex flex-col gap-12 flex-1 lg:order-1 order-2">
             <div className="flex flex-col gap-4">
-              <h1 className="font-headings-heading-1 font-[number:var(--headings-heading-1-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[var(--headings-heading-1-letter-spacing)] leading-[var(--headings-heading-1-line-height)] [font-style:var(--headings-heading-1-font-style)]">
+              <h1 className="font-extralight text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[0] leading-[1.2]">
                 Tell Me Your Story
               </h1>
 

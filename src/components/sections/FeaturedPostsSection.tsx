@@ -34,7 +34,7 @@ export const FeaturedPostsSection = (): React.ReactElement => {
     <section className="flex items-center justify-center py-[116px] bg-neutralneutral-01">
       <div className="flex flex-col items-center justify-center gap-24 px-4 container">
         <header className="flex flex-col items-center gap-4 text-center">
-          <h2 className="max-w-[705px] [font-family:'Urbanist',Helvetica] font-light text-neutralneutral-07 text-7xl tracking-[0] leading-[86.4px]">
+          <h2 className="max-w-[705px] font-extralight text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[0] leading-[1.2]">
             Community Favorites
           </h2>
           <p className="max-w-[617px] font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">

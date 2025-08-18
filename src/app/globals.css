@@ -8,6 +8,9 @@
   }
 }
 
+@import url("https://fonts.googleapis.com/css?family=Urbanist:var(--body-28px-regular-font-weight),var(--headings-display-1-font-weight),var(--body-18px-ragular-font-weight),var(--headings-heading-5-font-weight),var(--body-18px-medium-font-weight),var(--body-16px-regular-font-weight),var(--body-24px-regular-font-weight),200,300,var(--body-14px-regular-font-weight)");
+
+
 :root {
   --body-14px-medium-font-family: "Urbanist", Helvetica;
   --body-14px-medium-font-size: 14px;
@@ -163,5 +166,13 @@
   body {
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* lg and down (<1024px) */
+@media (max-width: 1024px) {
+  :root {
+    --headings-display-1-font-size: 50px;
+    --headings-heading-1-font-size: 50px;
   }
 }

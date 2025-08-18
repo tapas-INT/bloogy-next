@@ -69,7 +69,7 @@ export const ReaderFeedbackSection = (): React.ReactElement => {
     <section className="w-full bg-neutralneutral-02 py-[117px] overflow-hidden">
       <div className="flex flex-col items-center gap-8 container px-4">
         <header className="flex flex-col items-center gap-4">
-          <h2 className="font-headings-heading-1 font-[number:var(--headings-heading-1-font-weight)] text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] text-center tracking-[var(--headings-heading-1-letter-spacing)] leading-[var(--headings-heading-1-line-height)] [font-style:var(--headings-heading-1-font-style)]">
+          <h2 className="font-extralight text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[0] leading-[1.2]">
             Happy Reader's
           </h2>
           <p className="w-full max-w-[540px] font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] text-center tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
