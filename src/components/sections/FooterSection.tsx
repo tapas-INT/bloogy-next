@@ -48,7 +48,7 @@ export const FooterSection = (): React.ReactElement => {
           </div>
         </div>
 
-        <div className="sm:flex flex-col gap-12 w-full">
+        <div className="flex flex-col gap-12 w-full">
           <div className="w-full h-px bg-neutralneutral-05"></div>
 
           <div className="flex flex-col lg:flex-row items-center justify-between w-full">
