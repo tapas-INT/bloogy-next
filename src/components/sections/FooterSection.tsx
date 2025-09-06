@@ -3,14 +3,14 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import { Input } from "../ui/input";
 
-export const FooterSection = (): React.ReactElement => {
+export const FooterSection = ({ className }: { className?: string }): React.ReactElement => {
   const navigationLinks = [
     { label: "View Blog", href: "#" },
     { label: "Blog Details", href: "#" },
   ];
 
-  return (
-    <footer className="w-full bg-neutralneutral-01 py-[120px]">
+  return (    
+    <footer className={`w-full bg-neutralneutral-01 py-[120px] ${className}`}>
       <div className="container px-4 flex flex-col gap-24">
         <div className="flex flex-col lg:flex-row  gap-10 items-center justify-between w-full">
           <div className="flex items-center gap-2">

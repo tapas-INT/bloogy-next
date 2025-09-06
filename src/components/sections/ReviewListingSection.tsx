@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../ui/button";
 import { TestimonialCard } from "./TestimonialCard";
 
 const testimonialData = [
@@ -56,28 +57,48 @@ const testimonialData = [
     testimonial:
   "Bloogy is one of the most refreshing blogs I&apos;ve come across. The content is always uplifting and thoughtful, with a focus on real-life experiences. It&apos;s like getting advice from a trusted friend.",
   },
+  {
+    name: "Jerome Bell",
+    title: "President of Sales",
+    image: "/images/reviewer-7.png",
+    socialIcon: "/images/icons/linkedin-icon.png",
+    socialAlt: "Linkedin logo",
+    testimonial:
+  "What I love most about Bloogy is how it feels so personal. The posts are filled with honesty and reflection, and they always leave me thinking about how I can apply the lessons to my own life.",
+  },
+  {
+    name: "Guy Hawkins",
+    title: "Dog Trainer",
+    image: "/images/reviewer-8.png",
+    socialIcon: "/images/icons/instagram-icon.png",
+    socialAlt: "Instagram",
+    testimonial:
+  "I’ve read many blogs, but Bloogy stands out for its authenticity. The posts are well-written, insightful, and always seem to touch on topics that matter. It’s quickly become a favorite in my reading list!",
+  },
+  {
+    name: "Bessie Cooper",
+    title: "Nursing Assistant",
+    image: "/images/reviewer-9.png",
+    socialIcon: "/images/icons/x-icon.png",
+    socialAlt: "X",
+    testimonial:
+  "Bloogy has such a unique voice. I appreciate how the posts are both insightful and easy to relate to. It feels like the blog really understands its readers, offering valuable content that always hits the mark.",
+  },
 ];
 
-export const ReaderFeedbackSection = (): React.ReactElement => {
+export const ReviewListingSection = (): React.ReactElement => {
   return (
-    <section className="w-full bg-neutralneutral-02 py-[117px] overflow-hidden">
-      <div className="flex flex-col items-center gap-8 container px-4">
-        <header className="flex flex-col items-center gap-4">
-          <h2 className="font-extralight text-neutralneutral-07 text-[length:var(--headings-heading-1-font-size)] tracking-[0] leading-[1.2]">
-            Happy Reader's
-          </h2>
-          <p className="w-full max-w-[540px] font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-neutralneutral-06 text-[length:var(--body-16px-regular-font-size)] text-center tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)]">
-            Read real-life success stories from our clients. Don't just take our
-            word for it. See what our clients have to say about our products or
-            services.
-          </p>
-        </header>
+    <section className="w-full bg-neutralneutral-01 py-[119px]">
+      <div className="container px-4 flex flex-col items-center gap-24">
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 w-full">
-          {testimonialData.map((testimonial, index) => (
+            {testimonialData.map((testimonial, index) => (
             <TestimonialCard key={index} testimonial={testimonial} />
-          ))}
+            ))}
         </div>
+        <Button className="h-auto px-10 py-4 bg-theme-colortheme-color-01 hover:bg-theme-colortheme-color-01/90 rounded-[100px] text-black font-body-16px-regular font-[number:var(--body-16px-regular-font-weight)] text-[length:var(--body-16px-regular-font-size)] tracking-[var(--body-16px-regular-letter-spacing)] leading-[var(--body-16px-regular-line-height)] [font-style:var(--body-16px-regular-font-style)] group hover:bg-neutralneutral-08 hover:text-white">
+        Lode More Review
+        </Button>
       </div>
     </section>
   );
